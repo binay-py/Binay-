@@ -170,10 +170,13 @@
   color: #333;
   font-weight: bold;
   transition: 0.4s ease-in-out;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .tags li a:hover {
-  color: #ff7200;
+  background: #3e3c3c;
+  color: #fff;
 }
 .photo {
   width: 400px;
@@ -417,4 +420,13 @@
 .contact a:hover {
   background-color: #444;
   color: #fff;
+}
+@media screen and (max-width:1880px){
+.main_box{
+  position: relative;
+  background: linear-gradient(to top, rgba(211, 208, 208, 0.5)20%,rgba(211, 208, 208, 0.5)20%),url(bgnaiho.png) right no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 1600px;
+}
 }
